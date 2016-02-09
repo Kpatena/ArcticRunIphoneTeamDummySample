@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57B380F51C69CC1500266E96 /* PedometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B380F41C69CC1500266E96 /* PedometerViewController.swift */; };
 		EB32EA911C62A66A0049B1A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32EA901C62A66A0049B1A5 /* AppDelegate.swift */; };
 		EB32EA931C62A66A0049B1A5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32EA921C62A66A0049B1A5 /* FirstViewController.swift */; };
 		EB32EA951C62A66A0049B1A5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32EA941C62A66A0049B1A5 /* SecondViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57B380F41C69CC1500266E96 /* PedometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedometerViewController.swift; sourceTree = "<group>"; };
 		EB32EA8D1C62A66A0049B1A5 /* ArcticRunSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcticRunSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB32EA901C62A66A0049B1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB32EA921C62A66A0049B1A5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				EB32EA991C62A66A0049B1A5 /* Assets.xcassets */,
 				EB32EA9B1C62A66A0049B1A5 /* LaunchScreen.storyboard */,
 				EB32EA9E1C62A66A0049B1A5 /* Info.plist */,
+				57B380F41C69CC1500266E96 /* PedometerViewController.swift */,
 			);
 			path = ArcticRunSample;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B380F51C69CC1500266E96 /* PedometerViewController.swift in Sources */,
 				EB32EA951C62A66A0049B1A5 /* SecondViewController.swift in Sources */,
 				EB32EA911C62A66A0049B1A5 /* AppDelegate.swift in Sources */,
 				EB32EA931C62A66A0049B1A5 /* FirstViewController.swift in Sources */,
@@ -491,6 +495,7 @@
 				EB32EAB91C62A66A0049B1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB32EABA1C62A66A0049B1A5 /* Build configuration list for PBXNativeTarget "ArcticRunSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				EB32EABC1C62A66A0049B1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB32EABD1C62A66A0049B1A5 /* Build configuration list for PBXNativeTarget "ArcticRunSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				EB32EABF1C62A66A0049B1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
