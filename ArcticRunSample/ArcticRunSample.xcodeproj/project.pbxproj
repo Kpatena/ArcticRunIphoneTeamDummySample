@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		57B380F51C69CC1500266E96 /* PedometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B380F41C69CC1500266E96 /* PedometerViewController.swift */; };
+		7CE710601C6A636000899A61 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7105F1C6A636000899A61 /* SWRevealViewController.m */; };
+		7CE710621C6A652100899A61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE710611C6A652100899A61 /* ViewController.swift */; };
+		7CE710641C6A655F00899A61 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE710631C6A655F00899A61 /* BackTableVC.swift */; };
+		7CE710661C6A6C0300899A61 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE710651C6A6C0300899A61 /* Settings.swift */; };
+		7CE710681C6A6C2200899A61 /* Fitness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE710671C6A6C2200899A61 /* Fitness.swift */; };
+		EB1E606C1C6DA40A001D2C8F /* ChooseMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E606B1C6DA40A001D2C8F /* ChooseMissionViewController.swift */; };
+		EB1E606E1C6DA6FE001D2C8F /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = EB1E606D1C6DA6FE001D2C8F /* CHANGELOG.md */; };
 		EB32EA911C62A66A0049B1A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32EA901C62A66A0049B1A5 /* AppDelegate.swift */; };
 		EB32EA931C62A66A0049B1A5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32EA921C62A66A0049B1A5 /* FirstViewController.swift */; };
 		EB32EA951C62A66A0049B1A5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32EA941C62A66A0049B1A5 /* SecondViewController.swift */; };
@@ -37,6 +44,15 @@
 
 /* Begin PBXFileReference section */
 		57B380F41C69CC1500266E96 /* PedometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedometerViewController.swift; sourceTree = "<group>"; };
+		7CE7105D1C6A636000899A61 /* ArcticRunSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArcticRunSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		7CE7105E1C6A636000899A61 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		7CE7105F1C6A636000899A61 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7CE710611C6A652100899A61 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CE710631C6A655F00899A61 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		7CE710651C6A6C0300899A61 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		7CE710671C6A6C2200899A61 /* Fitness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fitness.swift; sourceTree = "<group>"; };
+		EB1E606B1C6DA40A001D2C8F /* ChooseMissionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseMissionViewController.swift; sourceTree = "<group>"; };
+		EB1E606D1C6DA6FE001D2C8F /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		EB32EA8D1C62A66A0049B1A5 /* ArcticRunSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcticRunSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB32EA901C62A66A0049B1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB32EA921C62A66A0049B1A5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CE7105C1C6A635100899A61 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7105E1C6A636000899A61 /* SWRevealViewController.h */,
+				7CE7105F1C6A636000899A61 /* SWRevealViewController.m */,
+				7CE7105D1C6A636000899A61 /* ArcticRunSample-Bridging-Header.h */,
+			);
+			name = Supports;
+			sourceTree = "<group>";
+		};
 		EB32EA841C62A66A0049B1A5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,7 @@
 				EB32EAA61C62A66A0049B1A5 /* ArcticRunSampleTests */,
 				EB32EAB11C62A66A0049B1A5 /* ArcticRunSampleUITests */,
 				EB32EA8E1C62A66A0049B1A5 /* Products */,
+				EB1E606D1C6DA6FE001D2C8F /* CHANGELOG.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +128,20 @@
 		EB32EA8F1C62A66A0049B1A5 /* ArcticRunSample */ = {
 			isa = PBXGroup;
 			children = (
+				7CE7105C1C6A635100899A61 /* Supports */,
 				EB32EA901C62A66A0049B1A5 /* AppDelegate.swift */,
 				EB32EA921C62A66A0049B1A5 /* FirstViewController.swift */,
 				EB32EA941C62A66A0049B1A5 /* SecondViewController.swift */,
+				7CE710651C6A6C0300899A61 /* Settings.swift */,
+				7CE710671C6A6C2200899A61 /* Fitness.swift */,
 				EB32EA961C62A66A0049B1A5 /* Main.storyboard */,
+				EB1E606B1C6DA40A001D2C8F /* ChooseMissionViewController.swift */,
 				EB32EA991C62A66A0049B1A5 /* Assets.xcassets */,
 				EB32EA9B1C62A66A0049B1A5 /* LaunchScreen.storyboard */,
 				EB32EA9E1C62A66A0049B1A5 /* Info.plist */,
 				57B380F41C69CC1500266E96 /* PedometerViewController.swift */,
+				7CE710611C6A652100899A61 /* ViewController.swift */,
+				7CE710631C6A655F00899A61 /* BackTableVC.swift */,
 			);
 			path = ArcticRunSample;
 			sourceTree = "<group>";
@@ -199,7 +232,7 @@
 				TargetAttributes = {
 					EB32EA8C1C62A66A0049B1A5 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = GKRFZ2DUEG;
+						DevelopmentTeam = L9GR6R2227;
 					};
 					EB32EAA21C62A66A0049B1A5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -264,9 +297,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B380F51C69CC1500266E96 /* PedometerViewController.swift in Sources */,
+				7CE710621C6A652100899A61 /* ViewController.swift in Sources */,
+				EB1E606E1C6DA6FE001D2C8F /* CHANGELOG.md in Sources */,
 				EB32EA951C62A66A0049B1A5 /* SecondViewController.swift in Sources */,
+				7CE710641C6A655F00899A61 /* BackTableVC.swift in Sources */,
+				EB1E606C1C6DA40A001D2C8F /* ChooseMissionViewController.swift in Sources */,
 				EB32EA911C62A66A0049B1A5 /* AppDelegate.swift in Sources */,
+				7CE710681C6A6C2200899A61 /* Fitness.swift in Sources */,
+				7CE710661C6A6C0300899A61 /* Settings.swift in Sources */,
 				EB32EA931C62A66A0049B1A5 /* FirstViewController.swift in Sources */,
+				7CE710601C6A636000899A61 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,11 +447,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ArcticRunSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.BCIT.COMP4977.ArcticRunSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArcticRunSample/ArcticRunSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -420,11 +465,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ArcticRunSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.BCIT.COMP4977.ArcticRunSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArcticRunSample/ArcticRunSample-Bridging-Header.h";
 			};
 			name = Release;
 		};
